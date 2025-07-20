@@ -63,9 +63,9 @@ if st.button("🔎 Prediksi"):
         vectorized = vectorizer.transform([cleaned])
         prediction = model.predict(vectorized)[0]
         if prediction == "FAKTA":
-            st.success("✅ Ini adalah FAKTA.")
+            st.success("✅ Ini FAKTA kawan.")
         else:
-            st.error("🚫 Ini terindikasi sebagai HOAKS.")
+            st.error("🚫 HOAKS saja ini dia .")
 
 # Footer
-st.markdown('<div class="footer">Dibuat dengan ❤️ menggunakan Streamlit, Sastrawi, dan Scikit-Learn</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">Dibuat dengan ❤️ Fikri G. La Hadi </div>', unsafe_allow_html=True)
